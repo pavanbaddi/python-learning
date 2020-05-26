@@ -2,10 +2,15 @@ import pytz, datetime
 
 #3)  strptime ignore trailing part of string
 # to solve this problem
-
-
+local_time = "26-05-2020 10:39:05 am"
+format = "%d-%m-%Y"
+local_datetime_object = datetime.datetime.strptime(local_time[0:10], format)
+print(local_datetime_object) #2020-05-26 00:00:00
 quit()
-# +++
+# Some useful links
+# https://stackoverflow.com/questions/11302013/python-datetime-strptime-ignore-fraction-of-a-second/11302200
+# https://stackoverflow.com/questions/49540214/parse-datetime-string-with-extra-characters
+#  +++
 
 local_time = "26-05-2020 10:39:05 am"
 format = "%d-%m-%Y"
