@@ -17,8 +17,8 @@ format = "%d-%m-%Y"
 
 try:
     local_datetime_object = datetime.datetime.strptime(local_time, format) 
-except Exception as identifier:
-    print(identifier)
+except Exception as e:
+    print(e)
 
 # Output
 # unconverted data remains:  10:39:05 am
