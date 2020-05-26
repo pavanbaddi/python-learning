@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Login	../class2.py	/^class Login:$/;"	kind:class	line:1
+MyClass	../create-class-object.py	/^class MyClass:$/;"	kind:class	line:1
+Person	../class1.py	/^class Person:$/;"	kind:class	line:1
+__init__	../class1.py	/^    def __init__(self, name, age):$/;"	kind:member	line:2
+class1.py	../class1.py	1;"	kind:file	line:1
+class2.py	../class2.py	1;"	kind:file	line:1
+create-class-object.py	../create-class-object.py	1;"	kind:file	line:1
+fetchUserData	../class2.py	/^    def fetchUserData(self):$/;"	kind:member	line:7
+fname	../class2.py	/^    fname = "pavan"$/;"	kind:variable	line:2
+lname	../class2.py	/^    lname = "baddi"$/;"	kind:variable	line:3
+login	../class2.py	/^login = Login()$/;"	kind:variable	line:11
+orginal_password	../class2.py	/^    orginal_password = "123456"$/;"	kind:variable	line:5
+p1	../class1.py	/^p1 = Person("Pavan", "26")$/;"	kind:variable	line:6
+p1	../create-class-object.py	/^p1 = MyClass()$/;"	kind:variable	line:4
+password	../class2.py	/^    password = ""$/;"	kind:variable	line:4
+property.py	../property.py	1;"	kind:file	line:1
+x	../class2.py	/^x = login.fetchUserData();$/;"	kind:variable	line:14
+x	../create-class-object.py	/^    x = 5$/;"	kind:variable	line:2
